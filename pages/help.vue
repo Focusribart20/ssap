@@ -4,18 +4,17 @@
       <div class="font-weight-bold">Frequently Asked Questions</div>
     </div>
 
+
     <v-row justify="center">
       <v-expansion-panels accordion>
         <v-expansion-panel v-for="(question, i) in questions" :key="i">
-          <v-expansion-panel-header
-            >{{ question.title }}
+          <v-expansion-panel-header>{{ question.title }}
             <template v-slot:actions>
               <v-icon color="primary"> mdi-menu-down </v-icon>
             </template>
           </v-expansion-panel-header>
           <v-expansion-panel-content>
-            {{ question.answer }}</v-expansion-panel-content
-          >
+            {{ question.answer }}</v-expansion-panel-content>
         </v-expansion-panel>
       </v-expansion-panels>
     </v-row>
@@ -45,7 +44,7 @@ export default {
         {
           title: "What is the use of QR Code ?",
           answer:
-            "QrCode for any loan or saving accounts can be shared with other users which will allow thme to create a beneficiary",
+            "QR Code for any loan or saving accounts can be shared with other users which will allow thme to create a beneficiary",
         },
         {
           title: "How to create beneficiary using QR Code ?",
