@@ -32,7 +32,7 @@
     "nuxt-material-design-icons": "^1.0.4",
     "secure-ls": "^1.2.6",
     "sweetalert": "^2.1.2",
-    "vue-i18n": "^8.26.5",
+    "vue-i18n": "^8.28.2",
     "vuetify": "^2.6.7",
     "vuex-persistedstate": "^3.2.0"
   },
