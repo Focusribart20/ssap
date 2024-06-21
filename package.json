@@ -30,7 +30,7 @@
     "fibers": "^5.0.1",
     "nuxt": "^2.12.2",
     "nuxt-material-design-icons": "^1.0.4",
-    "secure-ls": "^1.2.6",
+    "secure-ls": "^2.0.0",
     "sweetalert": "^2.1.2",
     "vue-i18n": "^8.26.5",
     "vuetify": "^2.6.7",
